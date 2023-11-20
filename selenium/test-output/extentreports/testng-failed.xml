@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [extentreports]">
+  <test thread-count="5" name="Test WikiPage(failed)">
+    <classes>
+      <class name="seleniumphase2.TestClass">
+        <methods>
+          <include name="generateTestStatus"/>
+          <include name="method1"/>
+          <include name="InitalizeExtentReport"/>
+          <include name="closebrowser"/>
+          <include name="generateReports"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- seleniumphase2.TestClass -->
+    </classes>
+  </test> <!-- Test WikiPage(failed) -->
+</suite> <!-- Failed suite [extentreports] -->
